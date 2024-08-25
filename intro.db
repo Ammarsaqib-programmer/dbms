@@ -1,0 +1,13 @@
+#DATABASE
+#Collection of data in a format that can be easily easily accessed in (DIGITAL)
+#A Software that manages this data is known as Data Base Management System (DBMS)
+#TYPES OF DATABASE
+#Relational 
+#Non relational
+#SQL
+#It is a programming language used to  interact with relational database:
+#It is used to “CRUD”operations
+#Create
+#Read
+#Update
+#Delete
