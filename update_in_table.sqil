@@ -1,0 +1,10 @@
+UPDATE worker
+SET 
+    id = 2,
+    first_name = 'AMMAR',
+    last_name = 'ARAIN',
+    hourly_rate = 22,
+    phone_number = '0300-0123'
+WHERE id = 1;
+
+SELECT * FROM worker;
