@@ -1,0 +1,21 @@
+--This ensure that all values in table need to be different 
+CREATE TABLE product (
+ product_id INT PRIMARY KEY,
+ product_name VARCHAR(25) UNIQUE, 
+ price DECIMAL(6, 2) 
+);
+--Incase if you forget to add unique key words just like this
+CREATE TABLE products (
+ product_id INT PRIMARY KEY,
+ product_name VARCHAR(25), 
+ price DECIMAL(6, 2) 
+);
+--Then use this code 
+ALTER TABLE products
+ADD constraint
+UNIQUE (product_name);
+--NOW ADDING VALUES INTO TABLE
+INSERT INTO product (product_id, product_name, price)
+VALUES (100, 'SOAP', 3.99),
+ (101, 'ICE-CREAM', 1.39),
+ (104, 'FRIES', 2.20);
